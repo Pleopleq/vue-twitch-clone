@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="navbar_middleContent">
     <search-bar></search-bar>
     <search-button></search-button>
   </div>
@@ -14,4 +14,12 @@ export default {
 };
 </script>
 
-<style></style>
+<style>
+.navbar_middleContent {
+  display: flex;
+  height: 4rem;
+  width: 27rem;
+  align-items: center;
+  padding: 0.6rem 0.5rem;
+}
+</style>
